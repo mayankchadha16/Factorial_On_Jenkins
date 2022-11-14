@@ -10,6 +10,3 @@ def factorial(x):
     else:
         # recursive call to the function
         return (x * factorial(x-1))
-
-
-print(factorial(5))
