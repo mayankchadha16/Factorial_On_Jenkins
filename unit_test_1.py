@@ -1,16 +1,16 @@
 import unittest
-from factorial import factorial
+from factorial import my_factorial
 
 
 class TestCase(unittest.TestCase):
     def testCase1(self):
-        self.assertEqual(factorial(0), 1)
+        self.assertEqual(my_factorial(0), 1)
 
     def testCase2(self):
-        self.assertEqual(factorial(1), 1)
+        self.assertEqual(my_factorial(1), 1)
 
     def testCase3(self):
-        self.assertEqual(factorial(5), 120)
+        self.assertEqual(my_factorial(5), 120)
 
 
 if __name__ == '__main__':
