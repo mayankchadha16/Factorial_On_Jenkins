@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Failing Test case for adding two numbers
+# Failing Test case for factorial
 
 import unittest
 from factorial import my_factorial
