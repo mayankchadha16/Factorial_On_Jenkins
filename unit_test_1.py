@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Test case for checking factorial of two numbers
+# Passing Test case for checking factorial of numbers
 
 import unittest
 from factorial import my_factorial
